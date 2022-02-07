@@ -1,0 +1,95 @@
+<!-- In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <table border="2" width="600" cellspacing="2" cellpadding="5">
+          <th colspan="2">Contact US</th>
+  
+          <tr>
+            <td>Your Name</td>
+            <td>
+              <input
+                type="text"
+                name="Name"
+                id="Name"
+                required="required"
+              />
+            </td>
+          </tr>
+  
+          
+          <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+           
+           
+          <tr>
+            <td>DOB</td>
+            <td><input type="date" name="password" id="password" /></td>
+          </tr>
+  
+            
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" name="gender" id="male" />Male
+              <input type="radio" name="gender" id="female" />Female
+              <input type="radio" name="gender" id="other" />Other
+            </td>
+          </tr>
+  
+          <tr>
+            <td>Hobbies:</td>
+            <td>
+              <input type="checkbox" name="music" id="male" />Music
+              <input type="checkbox" name="reading" id="female" />Reading
+              <input type="checkbox" name="sports" id="other" />Sports
+            </td>
+          </tr>
+  
+          <tr>
+            <td>Country:</td>
+            <td>
+              <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="USA">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="japan">Japan</option>
+                <option value="aus">Australia</option>
+              </select>
+            </td>
+          </tr>
+  
+          <tr>
+            <td>Message:</td>
+            <td><textarea type="Textarea" name="Textarea" id="area" rows="4" cols="10"></textarea></td>
+          </tr>
+          <tr>
+            <td>Employee Type:</td>
+            <td>
+              <input type="radio" name="employee type" id="Salaried" />Salaried
+              <input type="radio" name="employee type" id="own business" />Own Business
+              
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="submit" value="Register" />
+            </td>
+          </tr>
+        </table>
+      </form>
+</body>
+</html>
